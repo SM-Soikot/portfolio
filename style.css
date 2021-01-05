@@ -1,0 +1,88 @@
+body{
+    /* background-color: rgba(0, 0, 0, 0.884); */
+    /* color: white; */
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+.top-bannar{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.name{
+    color: rgba(43, 221, 111, 0.979) ;
+}
+.name1{
+    color: rgb(255, 174, 0);
+}
+h1{
+    font-size: 34px;
+}
+p{
+    color: dimgray;
+    margin-bottom: 30px;
+}
+
+section{
+    height: 600px;
+    /* margin-bottom: 60px; */
+   
+    
+}
+.half{
+    width: 39%;
+    float: left;
+    margin: 2%;
+    padding: 20px;
+    margin-left: 41px;
+    margin-top: 30px;
+}
+.half img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    padding: 12px 24px;
+  background-image: linear-gradient(45deg, orange, tomato);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 169, 26);
+    font-weight: 900;
+    margin-top: 10px;
+}
+.box{
+    box-shadow: 10px 10px 30px grey ;
+    height: 50%;
+    border-radius: 10px;
+    /* background-color: white; */
+ 
+}
+#box1{
+    border-image: linear-gradient(180deg, orange, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    
+}
+#box2{
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    
+}
+footer{
+    text-align: center;
+    border-top: 5px solid;
+    border-image: linear-gradient(45deg, orange, tomato);
+    border-image-slice: 1;
+    padding: 20px;
+}
